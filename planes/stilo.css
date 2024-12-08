@@ -1,0 +1,104 @@
+.container{
+    display:flex;
+    
+    box-shadow: 1px 2px 2px 2px rgba(98, 98, 93, 0.737);
+    flex-wrap: wrap;
+    height: 250px;
+    width: 500px;
+    border-radius: 5px;
+    /* border: solid 1px red; */
+    
+}
+
+.item{
+    display: flex;
+    width: 33%;
+    color:blue ;
+    font-size: 2mm;
+    text-align: center;
+    font-family: Helvetica;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+}
+
+.item1{
+    border-radius: 5px;
+    box-shadow: 0px 5px 1px 1px rgba(51, 51, 64, 0.418);
+    width: 33%;
+    height: 246px;
+    background-image: linear-gradient(to bottom right , rgb(12, 94, 226) , rgba(13, 98, 210, 0.861) ,rgb(15, 239, 217));
+    color: white;
+    font-family: Helvetica;
+    font-size: 2mm;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item2{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    text-align:center ;
+    color: blue;
+    font-family: Helvetica, sans-serif;
+    font-size: 2mm;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garantiza el alto completo de la ventana */
+    margin: 0;        /* Elimina márgenes */
+    box-sizing: border-box;
+    background-color: rgba(240, 255, 255, 0.678);
+}
+.p1{
+    font-size: 4mm;
+}
+.p2{
+    color: rgba(4, 199, 206, 0.78);
+    font-size: 3mm;
+}
+
+.p3{
+    font-size: 4mm;
+}
+.p4{
+    color: rgba(4, 199, 206, 0.845);
+    font-size: 3mm;
+}
+
+.subitem{
+    border-radius: 5px;
+    background-color: rgba(4, 206, 176, 0.705);
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.235);
+    width: 90px;
+    height: 12px;
+    display: flex;
+    color: white;
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+}
+.subitem1{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.305);
+    width: 90px;
+    height: 12px;
+    display: flex;
+    color: rgba(8, 235, 205, 0.657);
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+    border: solid 1px rgba(4, 206, 166, 0.705);
+}
+
+#opciones{
+    margin-top: 13px;
+}
+
